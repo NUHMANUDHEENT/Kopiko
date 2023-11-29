@@ -17,6 +17,11 @@ body{
   letter-spacing: 5px;
   text-decoration: none solid rgb(183, 183, 183);
 }
+@media screen and (min-width : 00px) {
+    .navbar1 p ,h1{
+      text-align: center;
+    }
+}
 .menulist a{
     margin-left: 60px;
     text-decoration: none ;
