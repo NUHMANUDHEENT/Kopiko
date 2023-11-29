@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+}
+.navbar1 h1{
+  color: #b7b7b7;
+  letter-spacing: 6.5px;
+  text-decoration: none solid rgb(183, 183, 183);
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar1 h1:hover{
+   color: #d75a49 ;
+   transition: 0.5s;
+}
+.navbar1 p{
+  color: #b7b7b7;
+  font-family: playfair;
+  letter-spacing: 5px;
+  text-decoration: none solid rgb(183, 183, 183);
+}
+.menulist a{
+    margin-left: 60px;
+    text-decoration: none ;
+    color:   #FFFFFF;
+}
+.menulist li,a:hover{
+  transform: none;
+  transition: color 0.10s ease-in 0.2s ease-out 0.5;
+  color:#d75a49;
+ 
+}
+.discription{
+  padding-top: 110px;
+  padding-bottom: 300px;
+  width: auto;
+  font-family: "Roboto", Sans-serif;
+  background-color: black;
+  text-align: center;
+}
+.discription p{
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 35.2px;
+  text-decoration: none solid rgb(122, 122, 122);
+  font-size: 21px;
+  word-spacing: 0px;
+  color: #7A7A7A;
+}
+.img-2 {
+  width: 880px;
+  height: 495px;
+  max-width: 100%;
+}
+.icons li{
+  list-style: none;
+  display: inline;
+ 
+  
+}
+.icons img{
+     width: 35px;
+     
+}
+.icons{
+  text-align: center;
+  word-spacing: 100px;
+  background-color: black;
+  height: 230px;
+
+}
+.footer{
+  background-color: black;
+  color: #7A7A7A;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+.footer a{
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .img-1 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .img-2 {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-2 {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button1 {
+    display: none;
+  }
+} 
+@media screen and (max-width: 1024px) {
+  .menuitems li {
+    display: none;
+  }
+} 
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #d75a49;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0; 
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+@font-face {
+  font-family: 'playfair';
+  src: url('OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
